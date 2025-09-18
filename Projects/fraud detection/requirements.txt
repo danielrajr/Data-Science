@@ -1,4 +1,5 @@
 streamlit
+plotly==5.24.1
 plotly.express
 plotly.graph_objects
 plotly.subplots
