@@ -18,10 +18,10 @@ st.markdown("Analyze transaction patterns, detect fraudulent activities, and cal
 @st.cache_data
 def load_data():
     try:
-        df = pd.read_csv('Fraud_Analysis_Dataset.csv')
+        df = pd.read_csv('..\Fraud_Analysis_Dataset.csv')
         return df
     except FileNotFoundError:
-        st.error("❌ File 'Fraud_Data_Analysis.csv' not found. Please make sure the file is in the same directory.")
+        st.error("❌ File 'Fraud_Analysis_Dataset.csv' not found. Please make sure the file is in the same directory.")
         st.stop()
     except Exception as e:
         st.error(f"❌ Error loading file: {str(e)}")
