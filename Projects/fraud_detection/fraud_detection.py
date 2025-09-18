@@ -35,7 +35,7 @@ df = load_data()
 
 # Try to load model if available
 try:
-    model = joblib.load(r'/mount/src/data-science/Projects/fraud_detection/fraud_detection_pipeline.pkl')
+    model = joblib.load('fraud_detection_pipeline.pkl')
     model_available = True
 except FileNotFoundError:
     st.warning("⚠️ Model file 'fraud_detection_pipeline.pkl' not found. Prediction features will be limited.")
