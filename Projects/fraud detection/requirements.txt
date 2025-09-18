@@ -1,5 +1,7 @@
 streamlit
-plotly
+plotly.express
+plotly.graph_objects
+plotly.subplots
 scikit-learn
 imbalanced-learn
 xgboost
