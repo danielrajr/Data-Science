@@ -5,5 +5,5 @@ imbalanced-learn
 xgboost
 pandas
 numpy
-joblit
+joblit==1.4.2
 matplotlib
