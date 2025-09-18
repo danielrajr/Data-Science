@@ -1,8 +1,8 @@
 streamlit
 plotly==5.24.1
-scikit-learn
 imbalanced-learn
 xgboost
 pandas
 numpy
 matplotlib
+scikit-learn==1.5.1
